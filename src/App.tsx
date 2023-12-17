@@ -7,7 +7,7 @@ export function App() {
   const [questionNum, setQuestionNum] = useState(0);
   const [score, setScore] = useState(0);
 
-  if (triva[questionNum] === undefined || true) return <Ad />
+  if (triva[questionNum] === undefined) return <Ad />
 
   function onSelect(selection: string) {
     if (selection === triva[questionNum].correct) {
