@@ -52,7 +52,7 @@ function Ad() {
       <Layout>
         <p style={{textAlign: 'center'}}>Watch this short video to get your code</p>
         <iframe height="300px"
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1">
+          src="https://www.youtube.com/embed/cCA5DrOezss?autoplay=1">
         </iframe>
 
         {showCode && <Combination score={10} />}
