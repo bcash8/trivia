@@ -21,9 +21,9 @@ export const triva: TriviaData[] = [
         other: ['Science', 'Art', 'Dance', 'Videography']
     },
     {
-        question: 'How many times has Campbell broken his arm?',
-        correct: '10',
-        other: ['10', '0', '1', '3']
+        question: 'How many bones has Campbell broken?',
+        correct: '17',
+        other: ['12', '17', '8', '15']
     },
     {
         question: 'What play was Mali in at Spectrum?',
@@ -31,7 +31,7 @@ export const triva: TriviaData[] = [
         other: ['Seussical', 'Joseph', 'Annie', 'Beauty and the Beast']
     },
     {
-        question: 'Which book series did you use to teach Hannah cursive?',
+        question: 'What book series did Hannah come into your room for help, because she couldn\'t read cursive?',
         correct: 'Nate the Great',
         other: ['Boxcar Children', 'The Tale of Desperaux', 'Junie B Jones', 'Nate the Great']
     },

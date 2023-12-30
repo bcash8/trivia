@@ -30,7 +30,7 @@ export function App() {
 }
 
 function Combination({ score }: { score: number }) {
-  const combination = ["36", "24", "05"]
+  const combination = ["18", "08", "34"]
 
   return (
     <CombinationLayout>
@@ -44,7 +44,7 @@ function Combination({ score }: { score: number }) {
 function Ad() {
   const [showCode, setShowCode] = useState(false);
 
-  useEffect(() => { setTimeout(() => setShowCode(true), 20000); }, [])
+  useEffect(() => { setTimeout(() => setShowCode(true), 10000); }, [])
 
   return (
     <>
