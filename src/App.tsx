@@ -44,7 +44,7 @@ function Combination({ score }: { score: number }) {
 function Ad() {
   const [showCode, setShowCode] = useState(false);
 
-  useEffect(() => { setTimeout(() => setShowCode(true), 10000); }, [])
+  useEffect(() => { setTimeout(() => setShowCode(true), 30000); }, [])
 
   return (
     <>
